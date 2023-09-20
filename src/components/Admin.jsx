@@ -5,7 +5,7 @@ import Card from "react-bootstrap/Card";
 import "../App.css";
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
-
+import { IoSettingsOutline } from 'react-icons/io5';
 
 function Books() {
   const [books, setbooks] = useState([]);
@@ -15,7 +15,6 @@ function Books() {
       Data();
     }
   }, [books]);
-
   let delBook = (book) => {
     Swal.fire({
       title:`Are you sure to delete (${book.title}) ?`,
@@ -33,9 +32,7 @@ function Books() {
     Data();
       }
     })
-    
   };
-
   let handleEvent = () => {
     books.sort((a, b) => {
       if (a.title < b.title) return -1;
@@ -46,8 +43,9 @@ function Books() {
   return (
     <section className="get_books">
       <Container>
-        <div className="d-flex justify-content-start ">
+        <div className="d-flex justify-content-between ">
           <Link to={"./add"} className="btn add-btn">Add New</Link>
+          <Link className="setting" to='/setting'><IoSettingsOutline/></Link>
         </div>
         <div className="d-flex justify-content-end ">
           <button className="btn sort-btn" onClick={handleEvent}>Sort by Title</button>

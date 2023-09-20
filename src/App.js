@@ -24,7 +24,7 @@ function App() {
           </div>
         }
       >
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
             {["Signup", "/"].map((path, index) => (
               <Route path={path} element={<Signup />} key={index}></Route>
@@ -37,7 +37,7 @@ function App() {
             <Route path="admin/add" element={<AddBooks />} />
             <Route path="setting" element={<Setting />} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </Suspense>
     </>
   );
