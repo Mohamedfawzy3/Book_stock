@@ -1,5 +1,5 @@
 import { lazy, Suspense } from "react";
-import { BrowserRouter, Routes, Route,HashRouter } from "react-router-dom";
+import {Routes, Route, HashRouter } from "react-router-dom";
 import "./App.css";
 import BooksDetails from "./components/BooksDetails";
 import BooksDetailsAdmin from "./components/BooksDetailsAdmin";
