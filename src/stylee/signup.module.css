@@ -1,0 +1,39 @@
+.signUp {
+  height: 100vh;
+  background-color: #f1f3f4;
+}
+.signUpBox {
+  height: fit-content;
+  border-radius: 30px;
+  overflow: hidden;
+  min-height: 440;
+  max-width: 800px;
+}
+.text {
+  background-color: #3ab19d;
+}
+.forme {
+  background-color: white;
+}
+.signUph2 {
+  font-size: 40px;
+  margin: 30px 0px;
+  color: #3ab19d;
+
+}
+.btn {
+  padding: 5px 40px;
+  border-radius: 16px;
+  color: white;
+  font-size: 14px;
+}
+.btnText {
+  background-color: transparent;
+  border: 1px solid white;
+  margin-top: 15px;
+}
+.btnSubmit {
+  margin-top: 15px;
+  background-color: #3ab19d;
+  border: none;
+}

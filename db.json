@@ -1,0 +1,168 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Basic Physical Chemistry",
+      "subTitle": "A Complete Introduction on Bachelor of Science Level",
+      "professor": "Harper Lee",
+      "code": "1w60",
+      "description": "Based on the principles of physics and mathematics to obtain quantitative relations, Physical Chemistry deals with the structure and dynamics of matter. These relations are mainly concerned with phase and chemical equilibrium, or dynamic processes such as phase transitions, reaction kinetics, charge transport, and energy exchange between systems and surroundings. Importantly, Physical Chemistry is based on quite a small number of fundamental quantities and general physical concepts. This book tries to provide a complete overview of physical chemistry on the level of a Bachelor of Science degree in Chemistry, presenting first all the mathematical concepts needed to understand the formalisms as well as the example problems presented in the subsequent chapters on thermodynamics, kinetics, electrochemistry and, finally, a brief introduction into quantum chemistry and spectroscopy..",
+      "cover_image": "https://bookboon.com/thumbnail/380/105d638e-21d0-442e-afcb-a2fc00c64410/bf36c76d-1fb7-4232-b7c0-a56a00e3bef1/basic-physical-chemistry.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Essential Electrodynamics: Solutions",
+      "description": "This book contains solutions to problems at the end of each chapter of “Essential Electrodynamics”, also by Raymond Protheroe.",
+      "professor": "George Orwell",
+      "code": "a2309",
+      "subTitle": "A dystopian novel portraying a totalitarian society.",
+      "cover_image": "https://bookboon.com/thumbnail/380/f7566b54-7ef5-4363-be17-a1e20097dfce/cbd67581-4161-4701-b97a-a59900e5064d/essential-electrodynamics-solutions.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Chemistry: Quantum Mechanics and Spectroscopy II",
+      "subTitle": "Tutorial Questions and Solutions",
+      "professor": " J. E. Parker",
+      "code": "12e59",
+      "description": "The book covers the physical-chemistry aspects of quantum mechanics and spectroscopy in years 1-3 of a typical university degree in chemistry, chemical-physics, chemical engineering, biology or biochemistry. The lectures, tutorials and laboratory experiments I developed and gave on quantum mechanics and spectroscopy to our first, second and third year chemistry students over many years at the Chemistry Department, Heriot-Watt University, Edinburgh, Scotland have formed the basis for book. The feedback from students was an important part of this process. The book is also a useful reference source for graduates in their later professional careers. The book has a companion text which has tutorial and workshop questions with full and complete solutions including considerable extra background material that clarifies the solutions.",
+      "cover_image": "https://bookboon.com/thumbnail/380/a3042a98-fe86-42cc-b02b-a59100f62b30/83321328-ca5e-4269-a123-a56f00a730ed/chemistry-quantum-mechanics-and-spectroscopy-ii.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Essential Descriptive Inorganic Chemistry",
+      "subTitle": "A Complete Introduction on Bachelor of Science Level",
+      "professor": "Wolfgang Schärtl",
+      "code": "95i12",
+      "description": "Based on the principles of physics and mathematics to obtain quantitative relations, Physical Chemistry deals with the structure and dynamics of matter. These relations are mainly concerned with phase and chemical equilibrium, or dynamic processes such as phase transitions, reaction kinetics, charge transport, and energy exchange between systems and surroundings. Importantly, Physical Chemistry is based on quite a small number of fundamental quantities and general physical concepts. This book tries to provide a complete overview of physical chemistry on the level of a Bachelor of Science degree in Chemistry, presenting first all the mathematical concepts needed to understand the formalisms as well as the example problems presented in the subsequent chapters on thermodynamics, kinetics, electrochemistry and, finally, a brief introduction into quantum chemistry and spectroscopy.",
+      "cover_image": "https://bookboon.com/thumbnail/380/ebfae461-be11-4439-96c9-a69600bb12d7/5ff09561-192b-4165-9d5d-a69700f2ff3a/essential-descriptive-inorganic-chemistry.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Introduction to Inorganic Chemistry",
+      "subTitle": "Key ideas and their experimental basis",
+      "professor": " Peter G. Nelson",
+      "code": "45u76",
+      "description": "The aim of the book is to introduce students to the basic ideas of inorganic chemistry and to show where they come from. It starts from chemical observations, and develops the ideas from these. It complements texts that start from the quantum theory of atoms and molecules and take a more physical approach.",
+      "cover_image": "https://bookboon.com/thumbnail/380/49057f47-3596-4224-9e2d-9ee700cdf398/a55e9eb4-f178-4be6-b662-a47400cad150/introduction-to-inorganic-chemistry.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Chemistry: Quantum Mechanics and Spectroscopy I",
+      "subTitle": "The book covers the physical-chemistry aspects of quantum mechanics and spectroscopy of a typical university degree in chemistry, chemical-physics, chemical engineering, biology or biochemistry.",
+      "professor": " J. E. Parker",
+      "code": "7q40",
+      "description": "The book covers the physical-chemistry aspects of quantum mechanics and spectroscopy in years 1–3 of a typical university degree in chemistry, chemical-physics, chemical engineering, biology or biochemistry. The lectures, tutorials and laboratory experiments I developed and gave on quantum mechanics and spectroscopy to our first, second and third year chemistry students over many years at the Chemistry Department, Heriot-Watt University, Edinburgh, Scotland have formed the basis for book. The feedback from students was an important part of this process. The book is also a useful reference source for graduates in their later professional careers. The book has a companion text which has tutorial and workshop questions with full and complete solutions including considerable extra background material that clarifies the solutions.",
+      "cover_image": "https://bookboon.com/thumbnail/380/18ba772c-3a46-4c11-8f66-a56e01136fd0/83321328-ca5e-4269-a123-a56f00a730ed/chemistry-quantum-mechanics-and-spectroscopy.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Concise College Chemistry - Part 1",
+      "subTitle": "This book of chemistry is designed for B.Sc. In addition to descriptive, each chapter contains around 100 objectives. The subject matter has been presented to the point, simple and systematic manner.",
+      "professor": " Bashir Ahmad Dar",
+      "code": "87u23",
+      "description": "The present book of chemistry is particularly designed for the students who in the beginning of their university studies. Students will find Concise College Chemistry (Part 1) to be an invaluable quick reference guide. It will also be very useful for preparing M. Sc entrance examinations. This book is divided into four chapters namely (1) chemical bonding and molecular structure (2) s - block elements (3) organic chemistry and (4) states of matter. In addition to descriptive, each chapter contains around 100 objectives. The subject matter has been presented to the point, simple and systematic manner. We hope that this book will be successful in its objective and will be warmly received by the students.",
+      "cover_image": "https://bookboon.com/thumbnail/380/7a6f61cd-b016-40d6-a9ed-cdbe7350a475/38d1bb7f-8d37-4088-b8b1-3481e974a826/concise-college-chemistry-part-1.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Concepts In Scientific Writing",
+      "subTitle": "The book, which draws on history and philosophy of science, will be useful to science students writing a thesis for the first time.",
+      "professor": " Bashir Ahmad Dar",
+      "code": "58e61",
+      "description": "The book draws on history and philosophy of science, there being for example a discussion of formal logic as it relates to writing. The writings of personages including Michael Faraday and Isaac Newton are drawn on as examples, as are those of several Nobel Laureates including Richard Feynman. Quotations from these are analysed and commented upon. The text contains illustrations, including one of the title page of Newton’s Principia. There are also portraits of some of the scientists whose work is drawn on. The popularising of science has major coverage in the text, with examples dating from the early 19th century. There is also a section on etymology of scientific terms and on use of figures of speech. There is a chapter on newspaper reporting of science, with analysis of carefully selected examples.",
+      "cover_image": "https://bookboon.com/thumbnail/380/e1960428-2ab3-4be2-813c-a50200957f2d/6235b503-acb9-4a52-941c-a5c900c7941b/concepts-in-scientific-writing.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Partial Differential Equations",
+      "subTitle": "Partial differential equations form tools for modelling, predicting and understanding our world. Join Dr Chris Tisdell as he demystifies these equations through this eBook and YouTube videos.",
+      "professor": " J. E. Parker",
+      "code": "6p330",
+      "description": "Partial differential equations form tools for modelling, predicting and understanding our world. Scientists and engineers use them in the analysis of advanced problems. In this eBook, award-winning educator Dr Chris Tisdell demystifies these advanced equations. Highlights of this eBook include: an integration of the lessons with YouTube videos; and the design of active learning spaces. By engaging with this eBook, its examples and Chris's YouTube videos, you'll be well-placed to better understand partial differential equations and their solutions techniques. Download now!",
+      "cover_image": "https://bookboon.com/thumbnail/380/0db301c5-54bb-474c-ac5c-deac9ad3184d/ac880f7b-f3e7-48b0-b131-2f29c144f825/partial-differential-equations.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Introduction to Polymer Science and Technology",
+      "subTitle": "This book covers polymerisation and polymers at a basic level, with emphasis on the delineation of the concepts and their relevance in practical terms.",
+      "professor": " Mustafa Akay",
+      "code": "73y11",
+      "description": "This book covers polymerisation and polymers at a basic level, with emphasis on the delineation of the concepts and their relevance in practical terms. Highlighting the attractive features of polymers as engineering materials, it should appeal to those involved in learning and teaching as well as those working in the polymer-related industry. Topics include polymerisation, production methods for polymers and physical, mechanical and thermal properties. As a textbook it can be covered in two halves, concentrating on polymer-chemistry and polymer-physics related topics.",
+      "cover_image": "https://bookboon.com/thumbnail/380/77d662af-8ad1-4012-a047-a029008de79d/83321328-ca5e-4269-a123-a56f00a730ed/introduction-to-polymer-science-and-technology.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Introduction to Chemistry",
+      "subTitle": "This book introduces chemistry to beginners. It does this “progressively”, that is, the presentation moves logically from experimental observations to theory",
+      "professor": "Peter G. Nelson",
+      "code": "90ee2",
+      "description": "Chemistry is about the many different kinds of materials we see around us and use every day. It is about what they are made of and how they are made.This book introduces chemistry to beginners. It does this “progressively”, that is, the presentation moves logically from experimental observations to theory. No new ideas are introduced without first giving their experimental basis.",
+      "cover_image": "https://bookboon.com/thumbnail/380/825917d2-5541-4923-b790-b4907320b8d1/b8f6026b-1198-4530-ab19-3747015f6a39/introduction-to-chemistry.jpg"
+    },
+    {
+      "title": "Chemical Engineering Vocabulary: Bilingual",
+      "professor": " Maximilian Lackner",
+      "code": "21q98",
+      "cover_image": "https://bookboon.com/thumbnail/380/73daa634-324a-43cf-8f43-a2d900ca8d67/e1844707-cd3b-4aa6-aa43-a56a00a58a79/chemical-engineering-vocabulary.jpg",
+      "id": 12
+    },
+    {
+      "title": "Chemical Engineering Vocabulary: Bilingual",
+      "professor": " Maximilian Lackner",
+      "code": "21q98",
+      "cover_image": "https://bookboon.com/thumbnail/380/73daa634-324a-43cf-8f43-a2d900ca8d67/e1844707-cd3b-4aa6-aa43-a56a00a58a79/chemical-engineering-vocabulary.jpg",
+      "id": 13
+    }
+  ],
+  "all": [
+    {
+      "name": "Admin",
+      "email": "mohamedfawzy@gmail.com",
+      "password": "mohamed.cs",
+      "id": 1
+    },
+    {
+      "name": "nour",
+      "email": "nour@gmail.com",
+      "password": "3333333333333",
+      "id": 2
+    },
+    {
+      "name": "kaian",
+      "email": "kaian@gmail.com",
+      "password": "kaian1234",
+      "id": 3
+    },
+    {
+      "name": "zean",
+      "email": "zean@gmail.com",
+      "password": "3333333333333",
+      "id": 4
+    },
+    {
+      "name": "mahmoud",
+      "email": "mfawzy@gmail.com",
+      "password": "3333333333333",
+      "id": 5
+    },
+    {
+      "name": "marwan",
+      "email": "moh@gmail.com",
+      "password": "3333333333333",
+      "id": 6
+    },
+    {
+      "name": "ahmed",
+      "email": "mohamewzy@gmail.com",
+      "password": "3333333333333",
+      "id": 7
+    }
+  ],
+  "state": {
+    "name": "kaian",
+    "email": "kaian@gmail.com",
+    "state": "user",
+    "id": 3,
+    "password": "kaian.1234"
+  }
+}

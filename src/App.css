@@ -1,0 +1,116 @@
+.get_books {
+  background-color: #f4f4f7;
+  padding: 100px 0;
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 100px;
+}
+
+.boxes .card {
+  border: none;
+}
+
+.boxes .card .img {
+  height: 320px;
+}
+
+.boxes .card .card-body {
+  padding: 0;
+  background-color: #f4f4f7;
+}
+
+.boxes .card .card-body .header {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+.get_books .sort-btn,
+.get_books .sort-btn:hover {
+  padding: 11px 30px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.setting{
+  margin: 0px 0px 20px 10px;
+  height: fit-content;
+  width: fit-content;
+  font-size: 30px;
+  color: #3d3d3d;
+}
+
+.main_content {
+  margin: 90px 0;
+  padding: 30px;
+  position: relative;
+}
+
+.bg_img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 95%;
+  margin: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 94.8%;
+}
+
+.bg_img img {
+  filter: blur(0.3rem);
+  height: 200%;
+  width: 100%;
+}
+
+.bg_gradient {
+  background-image: linear-gradient(
+    180deg,
+    rgba(46, 70, 100, 0.8),
+    #2e4664 44%
+  );
+  position: absolute;
+  width: 94.8%;
+}
+
+@media (min-width: 768px) {
+  .bg_gradient {
+    height: calc(100% - 6rem);
+    top: 6rem;
+  }
+}
+
+.card_details {
+  color: #fff;
+  padding: 96px 50px;
+  position: relative;
+}
+
+.img_details {
+  margin-top: -3rem;
+  width: -webkit-fill-available;
+  height: 50%;
+}
+
+.main_content .card_details h2,
+.main_content .card_details h5,
+.main_content .card_details h6 {
+  margin-bottom: 18px;
+}
+
+.get_books .add-btn {
+  font-weight: 700;
+  font-size: 30px;
+  border-bottom: 3px #2e46644a solid;
+}
+
+.form_add-content {
+  margin: 100px 0;
+}
+
+.back_form {
+  margin-top: 50px;
+}
+
