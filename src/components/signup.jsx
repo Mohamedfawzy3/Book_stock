@@ -11,6 +11,7 @@ const Signup = () => {
   });
   const [error, setError] = useState(false);
   const [users, setUsers] = useState([]);
+  const [requestRuning, setRequestRuning]=useState("")
   const navigate = useNavigate();
   const getInfo = (e) => {
     const { name, value } = e.target;
@@ -20,6 +21,32 @@ const Signup = () => {
     }));
   };
 let data
+const registerUser =  () => {
+  try {
+  
+     axios.post("https://subjects-proj-data.onrender.com/all", user);
+     if(user.name==="Admin"){
+      axios.put('https://subjects-proj-data.onrender.com/state',{state:'admin' , name:user.name , email:user.email , id:"1" , password:user.password})
+     }
+     else{
+      axios.get("https://subjects-proj-data.onrender.com/all")
+      .then((res)=>{
+      let arr=  (res.data.map((u)=>u.id ))
+      setRequestRuning("")
+      console.log(arr.length)
+        axios.put('https://subjects-proj-data.onrender.com/state',{state:'user' , name:user.name , email:user.email , id:arr.length+1 , password:user.password})
+       navigate("/user")
+      })
+     .catch((err)=>{
+      console.log(err)
+      setRequestRuning("")
+     })
+     }
+   
+  } catch (err) {
+    console.log(err);
+  }
+};
   const checkUser = async () => {
     try {
       const res = await axios.get("https://subjects-proj-data.onrender.com/all");
@@ -30,39 +57,23 @@ let data
       
       if (existingUser || checkEmail) {
         setError(true);
+        setRequestRuning("")
       } else {
         setError(false);
         registerUser();
+
       }
     } catch (err) {
       console.log(err);
     }
   };
-  const registerUser =  () => {
-    try {
-       axios.post("https://subjects-proj-data.onrender.com/all", user);
-       if(user.name==="Admin"){
-        axios.put('https://subjects-proj-data.onrender.com/state',{state:'admin' , name:user.name , email:user.email , id:"1" , password:user.password})
-       }
-       else{
-        axios.get("https://subjects-proj-data.onrender.com/all")
-        .then((res)=>{
-        let arr=  (res.data.map((u)=>u.id ))
-        console.log(arr.length)
-          axios.put('https://subjects-proj-data.onrender.com/state',{state:'user' , name:user.name , email:user.email , id:arr.length+1 , password:user.password})
-         navigate("/user")
-        })
-       .catch((err)=>console.log(err))
-       }
-     
-    } catch (err) {
-      console.log(err);
-    }
-  };
-
   const handleSubmit = (e) => {
     e.preventDefault();
     checkUser();
+    setError(false)
+    setRequestRuning("rquest is running")
+
+    
     
   };
 
@@ -124,6 +135,8 @@ let data
               </div>
               {error && <div className="col-auto mb-3 alert alert-danger">This name or email is already  used.</div>}
               <div className="col-auto mb-3">
+                {requestRuning&& <div className="text-center ">wating...,some moment for server respond</div> }
+               
                 <button type="submit" className={`${style.btn} ${style.btnSubmit}`} >
                   Sign Up
                 </button>

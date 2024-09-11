@@ -98,11 +98,9 @@ const Settings = () => {
         setCurrent(res.data);
         st = res.data.state;
         setState(st);
-       
       })
       .catch((err) => console.log(err));
   };
-
   useEffect(() => {
     getstate();
   }, []);
